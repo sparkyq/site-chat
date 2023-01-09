@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="2.css">
+	<title>Реєстрація</title>
+</head>
+<body>
+<main>
+	<div class="container">
+    <h1>Реєстрація</h1>
+    <p>Будь ласка заповніть форму, щоб створити акаунт.</p>
+    <hr>
+
+    <label for="name"><b>Ім'я</b></label>
+    <input type="text" placeholder="Введіть ім'я" name="name" required>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Введіть Email" name="email" required>
+
+    <label for="psw"><b>Пароль</b></label>
+    <input type="password" placeholder="Введіть пароль" name="psw" required>
+
+    <label for="psw-repeat"><b>Повторіть пароль</b></label>
+    <input type="password" placeholder="Повторіть пароль" name="psw-repeat" required>
+    <hr>
+
+    <button type="submit" class="registerbtn"> <a href="5.html"> Зареєструватись </a> </button>
+  </div>
+   <div class="container signin">
+    <p>Вже є акаунт? <a href="3.html">Вхід</a>.</p>
+  </div>
+ </main>
+</body>
+</html>
