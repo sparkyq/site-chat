@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="2.css">
+	<title>Вхід</title>
+</head>
+<body>
+<main>
+	<div class="container">
+    <h1>Вхід</h1>
+    <hr>
+
+    <label for="name"><b>Ім'я</b></label>
+    <input type="text" placeholder="Введіть ім'я" name="name" required>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Введіть Email" name="email" required>
+
+    <label for="psw"><b>Пароль</b></label>
+    <input type="password" placeholder="Введіть пароль" name="psw" required>
+
+    <hr>
+
+    <button type="submit" class="registerbtn"> <a href="5.html">Вхід </a></button>
+  </div>
+   <div class="container signin">
+    <p>Немає акаунту? <a href="1.html">Зареєструйтесь</a>.</p>
+  </div>
+ </main>
+</body>
+</html>
